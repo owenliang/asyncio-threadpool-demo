@@ -42,7 +42,7 @@ async def ver1(request: Request):
     
     return Response(task['result'])
 
-#   第一个版本
+#   第二个版本
 @app.get('/ver2')
 async def ver2(request: Request):
     # 获取参数
